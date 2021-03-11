@@ -239,13 +239,13 @@ class _HomePageState extends State<HomePage> {
                   padding: const EdgeInsets.all(18.0),
                   child: Center(
                       child: Text(
-                        'developed by Ratna Priya',
+                        'developed by Manthan Choudhury',
                         style: TextStyle(fontWeight: FontWeight.normal, fontSize: 14,color:Colors.grey[700]),
                       )),
                 ),
                 GestureDetector(
                   onTap: () {
-                    _launchURL('https://github.com/ratnapriya4g');
+                    _launchURL('https://github.com/ManthanChoudhury');
                   },
                   child: Center(
                     child: Text(
